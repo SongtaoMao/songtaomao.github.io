@@ -1,30 +1,38 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Songtao Mao</title>
+    <link rel="shortcut icon" href="images/pisces.jpg">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164997660-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
         function gtag() {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-
         gtag('config', 'UA-164997660-1');
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- MathJax -->
     <script type="text/javascript" async
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-        </script>
+    </script>
 
     <style>
         .contact-links {
-            font-size: 50px;
+            font-size: 42px;
             display: flex;
-            gap: 40px;
-            margin-left: 70px;
+            justify-content: center;
+            gap: 32px;
+            margin-top: 20px;
+            flex-wrap: wrap;
         }
 
         .contact-links a {
@@ -40,14 +48,94 @@
         .contact-links a:hover {
             color: #0077b5;
         }
+
+        #publications .container,
+        #teaching .container {
+            text-align: left;
+        }
+
+        #publications header,
+        #teaching header {
+            text-align: left;
+        }
+
+        #publications h2,
+        #teaching h2 {
+            text-align: left;
+        }
+
+        #publications p,
+        #teaching p {
+            text-align: left;
+        }
+
+        .pub-list {
+            margin-top: 1.2em;
+            text-align: left;
+        }
+
+        .pub-item {
+            margin-bottom: 1.8em;
+            text-align: left;
+        }
+
+        .pub-title {
+            font-size: 1.3em;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 0.2em;
+            text-align: left;
+        }
+
+        .pub-title a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .pub-title a:hover {
+            text-decoration: underline;
+        }
+
+        .pub-authors {
+            font-size: 1em;
+            line-height: 1.35;
+            margin-bottom: 0.15em;
+            text-align: left;
+        }
+
+        .pub-venue {
+            font-size: 0.95em;
+            font-style: italic;
+            color: #666;
+            line-height: 1.35;
+            text-align: left;
+        }
+
+        .teaching-list {
+            margin-top: 1.2em;
+            text-align: left;
+        }
+
+        .teaching-item {
+            margin-bottom: 1.4em;
+            text-align: left;
+        }
+
+        .teaching-course {
+            font-size: 1.2em;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 0.15em;
+            text-align: left;
+        }
+
+        .teaching-role {
+            font-size: 0.95em;
+            color: #666;
+            line-height: 1.3;
+            text-align: left;
+        }
     </style>
-
-
-    <title>Songtao Mao</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="shortcut icon" href="images/pisces.jpg">
-    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 
 <body class="is-preload">
@@ -62,10 +150,11 @@
                 </nav>
             </div>
         </header>
+
         <nav id="menu">
             <h2 style="color:#fff">Menu</h2>
             <ul>
-                <li><a href="#wrapper">Biography</a></li>
+                <li><a href="#top">Biography</a></li>
                 <li><a href="#publications">Publications</a></li>
                 <li><a href="#teaching">Teaching</a></li>
             </ul>
@@ -78,13 +167,13 @@
                 <div class="col-4 col-5-large col-12-medium">
                     <center>
                         <a href="images/Songtao.jpeg" target="_blank" title="Click to view the full image">
-                            <img src="images/Songtao.jpeg" height="440" alt="" />
+                            <img src="images/Songtao.jpeg" height="440" alt="Songtao Mao" />
                         </a>
                         <h3>
                             <br> Email: <a href="mailto:smao13@jhu.edu" target="_blank">smao13@jhu.edu</a>
                         </h3>
-                        <div class="contact-links">
 
+                        <div class="contact-links">
                             <a href="mailto:smao13@jhu.edu" title="Email">
                                 <i class="fas fa-envelope"></i>
                             </a>
@@ -97,118 +186,192 @@
                                 title="LinkedIn">
                                 <i class="fab fa-linkedin"></i>
                             </a>
+
+                            <a href="https://scholar.google.com/citations?user=3Z0lfv8AAAAJ&hl=en" target="_blank"
+                                title="Google Scholar">
+                                <i class="fas fa-graduation-cap"></i>
+                            </a>
                         </div>
 
-
-
-                        <ul class="social">
-                        </ul>
                         <br>
                     </center>
                 </div>
+
                 <div class="col-8 col-7-large col-12-medium">
-                    <header>
-                    </header>
                     <div align="left">
                         <p>
-                            Hi, I'm Songtao Mao. I'm currently a second-year Ph.D. student in the <a
-                                href="https://www.cs.jhu.edu/" target="_blank">Department of Computer Science<a> at <a
-                                        href="https://www.jhu.edu/" target="_blank"> the Johns Hopkins University</a>,
-                                    advised by <a href="https://www.cs.jhu.edu/~lixints/" target="_blank"> Prof. Xin
-                                        Li</a>. Prior to this, I earned my Bachelor of Science degree in Mathematics
-                                    from <a href="https://zhiyuan.sjtu.edu.cn/html/zhiyuan/" target="_blank">Zhiyuan
-                                        College</a> at <a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao
-                                        Tong University</a>. My primary research focus is on theoretical computer
-                                    science, particularly in the areas of randomized algorithms and pseudorandomness,
-                                    coding theory, and computational complexity. Additionally, I have a keen interest in
-                                    cryptography and quantum computing. Feel free to reach out to me anytime.
+                            Hi, I'm Songtao Mao. I'm currently a Ph.D. student in the
+                            <a href="https://www.cs.jhu.edu/" target="_blank">Department of Computer Science</a>
+                            at
+                            <a href="https://www.jhu.edu/" target="_blank">Johns Hopkins University</a>,
+                            advised by
+                            <a href="https://www.cs.jhu.edu/~lixints/" target="_blank">Prof. Xin Li</a>.
+                            Prior to this, I earned my Bachelor of Science degree in Mathematics from
+                            <a href="https://zhiyuan.sjtu.edu.cn/html/zhiyuan/" target="_blank">Zhiyuan College</a>
+                            at
+                            <a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a>.
+                            My primary research focus is on theoretical computer science. Previously, I worked on pseudorandomness and coding theory. More recently, my research interests have shifted toward average-case complexity, cryptographic hardness, and the theory of AI safety.
                         </p>
                     </div>
                 </div>
             </div>
+        </div>
     </article>
-
 
     <article id="publications" class="wrapper style2">
-        <div class="container medium">
+        <div class="container">
             <header>
-                <h2>Publications</h2>
+                <h2 style="text-align: left;">Publications and Manuscripts</h2>
             </header>
-            Author list are all in Alphabet order
-            <ul>
-                <li>
-                    Xue Chen, Kuan Cheng, Xin Li, <strong>Songtao Mao</strong>.
-                    <b>Random Shortening of Linear Codes and Applications</b>. To appear in COCOON 2023.<br><br>
-                </li>
+            <p style="text-align: left;">Author lists are in alphabetical order unless otherwise specified.</p>
 
+            <div class="pub-list">
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2604.10457" target="_blank">
+                            Near Optimal Algorithms for Noisy k-XOR under Low-Degree Heuristic
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        <strong>Songtao Mao</strong>
+                    </div>
+                    <div class="pub-venue">
+                        arXiv, 2026
+                    </div>
+                </div>
 
-                <li>
-                    Ka Hin Leung, Shuxing Li, <strong>Songtao Mao</strong>.
-                    <b>Nonexistence results of generalized bent functions from \( \mathbb{Z}_2^n \) to \( \mathbb{Z}_m
-                        \)
-                    </b>. J. Combin. Theory Ser. A 198 (2023). <a
-                        href="https://www.sciencedirect.com/science/article/abs/pii/S0097316523000316">[Journal
-                        Version]</a><br><br>
-                </li>
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2603.03717" target="_blank">
+                            When Relaxation Does Not Help: RLDCs with Small Soundness Yield LDCs
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Kuan Cheng, Xin Li, <strong>Songtao Mao</strong>
+                    </div>
+                    <div class="pub-venue">
+                        arXiv, 2026
+                    </div>
+                </div>
 
-                <li>
-                    Zhiwei Bai, Xiang Cao, <strong>Songtao Mao</strong>, Han Zhang, Yuehui Zhang.
-                    <b>Nilpotent Category of Abelian Category and Self-Adjoint Functors</b>. To appear in Front. Math.
-                    China. <a href="https://arxiv.org/abs/2111.14656">[arXiv]</a> <br><br>
-                </li>
-            </ul>
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://eprint.iacr.org/2025/2164" target="_blank">
+                            Hardness and Algorithms for Batch LPN under Dependent Noise
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Xin Li, <strong>Songtao Mao</strong>, Zhaienhe Zhou
+                    </div>
+                    <div class="pub-venue">
+                        ePrint, 2025
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2410.15506" target="_blank">
+                        Improved Explicit Near-Optimal Codes in the High-Noise Regimes
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Xin Li, <strong>Songtao Mao</strong>
+                    </div>
+                    <div class="pub-venue">
+                        Proceedings of the ACM-SIAM Symposium on Discrete Algorithms (SODA), 2025
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2308.15746" target="_blank">
+                        Random Shortening of Linear Codes and Applications
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Xue Chen, Kuan Cheng, Xin Li, <strong>Songtao Mao</strong>
+                    </div>
+                    <div class="pub-venue">
+                        International Computing and Combinatorics Conference (COCOON), 2023
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S0097316523000316"
+                            target="_blank">
+                            Nonexistence Results of Generalized Bent Functions from \( \mathbb{Z}_2^n \) to \( \mathbb{Z}_m \)
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Ka Hin Leung, Shuxing Li, <strong>Songtao Mao</strong>
+                    </div>
+                    <div class="pub-venue">
+                        Journal of Combinatorial Theory, Series A, 2023
+                    </div>
+                </div>
+
+                <div class="pub-item">
+                    <div class="pub-title">
+                        <a href="https://arxiv.org/abs/2111.14656" target="_blank">
+                            Nilpotent Category of Abelian Category and Self-Adjoint Functors
+                        </a>
+                    </div>
+                    <div class="pub-authors">
+                        Zhiwei Bai, Xiang Cao, Han Zhang, <strong>Songtao Mao</strong>, Yuehui Zhang
+                    </div>
+                    <div class="pub-venue">
+                        Frontiers of Mathematics in China
+                    </div>
+                </div>
+            </div>
         </div>
     </article>
-
-
 
     <article id="teaching" class="wrapper style1">
-        <div class="container medium">
+        <div class="container">
             <header>
-                <h2>Teaching</h2>
+                <h2 style="text-align: left;">Teaching</h2>
+                <p style="text-align: left; margin-bottom: 0.8em;">Teaching Assistant</p>
             </header>
-            <ul>
-                <strong>Teaching Assistant:</strong> Fall 2023: <a
-                    href="https://www.cs.jhu.edu/~lixints/class/fall23.html"> Theory of Computation</a>
-            </ul>
+
+            <div class="teaching-list">
+                <div class="teaching-item">
+                    <div class="teaching-course">Theory of Computation</div>
+                    <div class="teaching-role">Teaching Assistant, Fall 2023, 2024, 2025</div>
+                </div>
+
+                <div class="teaching-item">
+                    <div class="teaching-course">Mathematical Foundations of Computer Science</div>
+                    <div class="teaching-role">Teaching Assistant, Spring 2026</div>
+                </div>
+            </div>
         </div>
     </article>
 
-
-
-    <article id="affiliation" class="wrapper style2 ">
-        <div class="container medium ">
-            <h3> Welcome to get in touch with me anytime!</h3>
+    <article id="affiliation" class="wrapper style2">
+        <div class="container medium">
+            <h3>Welcome to get in touch with me anytime!</h3>
             <footer>
-                <ul id="copyright ">
-                    <li>© Songtao Mao. All rights reserved.</li>
-                    <li>Design: <a href="https://html5up.net/miniport " target="_blank ">Miniport</a> & <a
-                            href="https://html5up.net/phantom " target="_blank ">Phantom</a></li>
-                    <li>Last update: Aug. 23, 2023</li>
+                <ul id="copyright">
+                    <li>&copy; Songtao Mao. All rights reserved.</li>
+                    <li>
+                        Design:
+                        <a href="https://html5up.net/miniport" target="_blank">Miniport</a> &
+                        <a href="https://html5up.net/phantom" target="_blank">Phantom</a>
+                    </li>
+                    <li>Last update: April 2026</li>
                 </ul>
             </footer>
         </div>
     </article>
-    <script src="assets/js/jquery.min.js "></script>
-    <script src="assets/js/jquery.scrolly.min.js "></script>
-    <script src="assets/js/browser.min.js "></script>
-    <script src="assets/js/breakpoints.min.js "></script>
-    <script src="assets/js/util.js "></script>
-    <script src="assets/js/main.js "></script>
-    <script language="JavaScript " type="text/javascript ">
-        $(document).ready(function() {
-            var href = $("#email ").attr("href ");
-            var email = href.replace("RemoveThis. ", " ");
 
-            $("#email ").click(function() {
-                $("#email ").attr("href ", email);
-            });
-            $("#email ").mouseenter(function() {
-                $("#email ").attr("title ", email.replace("mailto: ", " "));
-            });
-        });
-    </script>
-
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
