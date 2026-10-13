@@ -2,6 +2,8 @@
 
 Date: 2026-10-13
 
+- Verified the `https://songtaomao.github.io/` Search Console property via the published HTML tag. Google's live URL test reports that the page is available and indexable, and the homepage was added to Google's priority crawl queue. The prior Google index record showed a September 28, 2026 crawl that received a 404.
+- Submitted `https://songtaomao.github.io/sitemap.xml` to Search Console. Its first processing status was “Sitemap could not be read,” although direct Googlebot-style access returns HTTP 200 with `application/xml`, so it may need processing time after the newly created property.
 - Added the Google Search Console HTML verification tag so the restored homepage can be verified and submitted for reindexing.
 - Added a canonical URL, search description, crawl-permitting `robots.txt`, and a homepage `sitemap.xml` to help Google rediscover the restored site.
 - SEO indexing audit: Google currently shows no indexed result for `site:songtaomao.github.io`, while the restored homepage returns HTTP 200 with no `noindex` directive. The likely cause is deindexing during the roughly 49-day disabled/`noindex` period; a Search Console indexing request and sitemap can speed rediscovery.
