@@ -12,10 +12,12 @@ Date: 2026-10-13
 - Updated PASCAL to its latest title and author list.
 - Corrected the author order and venue year for the Nilpotent Category paper.
 - Added a homepage note inviting contact about postdoctoral and other research positions.
-- Kept the public GitHub Pages site disabled pending review.
+- Restored the repository name to `songtaomao.github.io` and published from `main / (root)`.
 
 Validation completed:
 
 - HTML parsed successfully.
 - All 12 publication entries are present.
 - Git whitespace validation passed.
+- GitHub Pages deployment run #18 completed successfully.
+- The public site returned HTTP 200 and the live content was independently verified.
