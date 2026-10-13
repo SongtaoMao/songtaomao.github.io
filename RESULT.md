@@ -1,7 +1,9 @@
 # Website Refresh Result
 
-Date: 2026-10-13
+Date: 2026-10-14
 
+- Published the updated biography with the Summer 2025 UIUC visit hosted by Fernando Granha Jeronimo, the Summer 2026 Bocconi visit hosted by Alon Rosen, and the ongoing Fall 2026 Simons Institute program on Pseudorandomness & High-Dimensional Expansion.
+- Refined the introduction layout by slightly reducing its text size, combining the biography and visiting history, reducing the inter-paragraph gap, lowering the portrait by 36 pixels, and raising the email-and-icons block by 24 pixels on desktop.
 - Verified the `https://songtaomao.github.io/` Search Console property via the published HTML tag. Google's live URL test reports that the page is available and indexable, and the homepage was added to Google's priority crawl queue. The prior Google index record showed a September 28, 2026 crawl that received a 404.
 - Submitted `https://songtaomao.github.io/sitemap.xml` to Search Console. Its first processing status was “Sitemap could not be read,” although direct Googlebot-style access returns HTTP 200 with `application/xml`, so it may need processing time after the newly created property.
 - Added the Google Search Console HTML verification tag so the restored homepage can be verified and submitted for reindexing.

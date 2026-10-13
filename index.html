@@ -37,6 +37,53 @@
             gap: 32px;
             margin-top: 20px;
             flex-wrap: wrap;
+            line-height: 1;
+        }
+
+        .bio-copy {
+            font-size: 0.9em;
+        }
+
+        .bio-copy p:first-child {
+            margin-bottom: 1em;
+        }
+
+        .bio-copy p:last-child {
+            margin-bottom: 0;
+        }
+
+        .profile-column {
+            display: flex;
+        }
+
+        .profile-panel {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            text-align: center;
+        }
+
+        .contact-block {
+            width: 100%;
+            margin-top: auto;
+        }
+
+        @media screen and (max-width: 980px) {
+            .contact-block {
+                margin-top: 1.5em;
+            }
+        }
+
+        @media screen and (min-width: 981px) {
+            .profile-photo-link {
+                margin-top: 36px;
+            }
+
+            .contact-block {
+                margin-bottom: 24px;
+            }
         }
 
         .contact-links a {
@@ -177,41 +224,41 @@
     <article id="top" class="wrapper style1">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-5-large col-12-medium">
-                    <center>
-                        <a href="images/Songtao.jpeg" target="_blank" title="Click to view the full image">
+                <div class="col-4 col-5-large col-12-medium profile-column">
+                    <div class="profile-panel">
+                        <a class="profile-photo-link" href="images/Songtao.jpeg" target="_blank" title="Click to view the full image">
                             <img src="images/Songtao.jpeg" height="440" alt="Songtao Mao" />
                         </a>
-                        <h3>
-                            <br> Email: <a href="mailto:smao13@jhu.edu" target="_blank">smao13@jhu.edu</a>
-                        </h3>
+                        <div class="contact-block">
+                            <h3>
+                                Email: <a href="mailto:smao13@jhu.edu" target="_blank">smao13@jhu.edu</a>
+                            </h3>
 
-                        <div class="contact-links">
-                            <a href="mailto:smao13@jhu.edu" title="Email">
-                                <i class="fas fa-envelope"></i>
-                            </a>
+                            <div class="contact-links">
+                                <a href="mailto:smao13@jhu.edu" title="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
 
-                            <a href="https://twitter.com/jarlly678" target="_blank" title="Twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
+                                <a href="https://twitter.com/jarlly678" target="_blank" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
 
-                            <a href="https://www.linkedin.com/in/songtao-mao-6b6891250/" target="_blank"
-                                title="LinkedIn">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
+                                <a href="https://www.linkedin.com/in/songtao-mao-6b6891250/" target="_blank"
+                                    title="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
 
-                            <a href="https://scholar.google.com/citations?user=3Z0lfv8AAAAJ&hl=en" target="_blank"
-                                title="Google Scholar">
-                                <i class="fas fa-graduation-cap"></i>
-                            </a>
+                                <a href="https://scholar.google.com/citations?user=3Z0lfv8AAAAJ&hl=en" target="_blank"
+                                    title="Google Scholar">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </a>
+                            </div>
                         </div>
-
-                        <br>
-                    </center>
+                    </div>
                 </div>
 
                 <div class="col-8 col-7-large col-12-medium">
-                    <div align="left">
+                    <div class="bio-copy" align="left">
                         <p>
                             Hi, I'm Songtao Mao. I'm currently a Ph.D. student in the
                             <a href="https://www.cs.jhu.edu/" target="_blank">Department of Computer Science</a>
@@ -224,6 +271,13 @@
                             at
                             <a href="https://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a>.
                             My primary research focus is on theoretical computer science. Previously, I worked on pseudorandomness and coding theory. More recently, my research interests have shifted toward average-case complexity, cryptographic hardness, and the theory of AI safety.
+                            In Summer 2025, I visited the University of Illinois Urbana-Champaign, hosted by
+                            <a href="https://siebelschool.illinois.edu/about/people/all-faculty/granha" target="_blank">Fernando Granha Jeronimo</a>.
+                            In Summer 2026, I visited Bocconi University, hosted by
+                            <a href="https://cs.unibocconi.eu/faculty/alon-rosen" target="_blank">Alon Rosen</a>.
+                            In Fall 2026, I am in the
+                            <a href="https://simons.berkeley.edu/programs/pseudorandomness-high-dimensional-expansion" target="_blank">Pseudorandomness &amp; High-Dimensional Expansion</a>
+                            program at the Simons Institute for the Theory of Computing.
                         </p>
                         <p>
                             <strong>I am currently looking for postdoctoral or other research positions starting in 2027.</strong>
