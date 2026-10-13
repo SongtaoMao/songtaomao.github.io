@@ -2,7 +2,7 @@
 
 Date: 2026-10-13
 
-- Slightly darkened the low-degree contribution note without changing its size, weight, or spacing.
+- Darkened the low-degree contribution note and matched its font weight to the bold “Songtao Mao” author styling (`600`) while preserving the note's size and spacing.
 - Restored the reviewed homepage for publication at https://songtaomao.github.io.
 - Bolded the author-order note while preserving its existing font size and spacing.
 - Clarified that the postdoctoral and research-position search starts in 2027.
