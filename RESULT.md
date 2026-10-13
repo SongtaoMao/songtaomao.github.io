@@ -2,6 +2,7 @@
 
 Date: 2026-10-13
 
+- Restored the reviewed homepage for publication at https://songtaomao.github.io.
 - Simplified the low-degree contribution note and linked it directly to Samuel Hopkins's thesis PDF.
 - Marked the PASCAL author list as ordered by contribution.
 - Added a precise contribution note for the polynomial-time low-degree paper, linking to Hopkins's original 2018 thesis.
