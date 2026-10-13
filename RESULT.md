@@ -2,6 +2,7 @@
 
 Date: 2026-10-13
 
+- Moved “Abelian Cayley High-Dimensional Expanders with Polylogarithmic Degree” to the top of the publication list.
 - Added the five publications missing from the previous homepage, bringing the list to 12 entries.
 - Marked the planted-clique paper as SODA 2027 and the Batch LPN paper as TCC 2026.
 - Updated PASCAL to its latest title and author list.
