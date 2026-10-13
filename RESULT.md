@@ -3,6 +3,8 @@
 Date: 2026-10-13
 
 - Restored the reviewed homepage for publication at https://songtaomao.github.io.
+- Bolded the author-order note while preserving its existing font size and spacing.
+- Clarified that the postdoctoral and research-position search starts in 2027.
 - Simplified the low-degree contribution note and linked it directly to Samuel Hopkins's thesis PDF.
 - Marked the PASCAL author list as ordered by contribution.
 - Added a precise contribution note for the polynomial-time low-degree paper, linking to Hopkins's original 2018 thesis.
