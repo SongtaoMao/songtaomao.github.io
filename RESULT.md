@@ -2,6 +2,7 @@
 
 Date: 2026-10-13
 
+- Simplified the low-degree contribution note and linked it directly to Samuel Hopkins's thesis PDF.
 - Marked the PASCAL author list as ordered by contribution.
 - Added a precise contribution note for the polynomial-time low-degree paper, linking to Hopkins's original 2018 thesis.
 - Moved “Abelian Cayley High-Dimensional Expanders with Polylogarithmic Degree” to the top of the publication list.
