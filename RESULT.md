@@ -2,6 +2,7 @@
 
 Date: 2026-10-13
 
+- Slightly darkened the low-degree contribution note without changing its size, weight, or spacing.
 - Restored the reviewed homepage for publication at https://songtaomao.github.io.
 - Bolded the author-order note while preserving its existing font size and spacing.
 - Clarified that the postdoctoral and research-position search starts in 2027.
