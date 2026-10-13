@@ -2,6 +2,7 @@
 
 Date: 2026-10-13
 
+- Added the Google Search Console HTML verification tag so the restored homepage can be verified and submitted for reindexing.
 - Added a canonical URL, search description, crawl-permitting `robots.txt`, and a homepage `sitemap.xml` to help Google rediscover the restored site.
 - SEO indexing audit: Google currently shows no indexed result for `site:songtaomao.github.io`, while the restored homepage returns HTTP 200 with no `noindex` directive. The likely cause is deindexing during the roughly 49-day disabled/`noindex` period; a Search Console indexing request and sitemap can speed rediscovery.
 - Darkened the low-degree contribution note and matched its font weight to the bold “Songtao Mao” author styling (`600`) while preserving the note's size and spacing.
