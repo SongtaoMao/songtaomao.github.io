@@ -1,3 +1,27 @@
+# Website Management Setup — 2026-10-26
+
+This round establishes ongoing website maintenance. Website source and hosting settings are unchanged.
+
+- Created a dedicated management checkout in the current workspace from the clean existing repository; retained the earlier checkout as a historical copy.
+- Added repository instructions and a maintenance guide covering file locations, preview branches, publication, temporary pause/restore, and round-by-round result recording.
+- Preserved the preview-before-publication preference for visible website changes.
+- Corrected the operational baseline: the last content release was `21002e1d09787c1a5ab756552f195a078958190b`, published on 2026-10-13 (America/Los_Angeles), with Pages run #27 successful. The older result below retains its original date and run #18 reference as historical text.
+
+Validation performed before syncing these documentation changes:
+
+- GitHub main and both local copies initially matched `21002e1`; both local workspaces were clean.
+- GitHub Pages API: `status=built`, `build_type=legacy`, source `main /`, no custom domain, HTTPS enforced.
+- The public homepage returned HTTP 200.
+- Downloaded homepage and local `index.html` had identical SHA-256: `d20f11b7ae18ab5eef8727aca219187882562344a9cd2cf377aa9ab6d963a300`.
+- The Pages run for that content release was successful: https://github.com/SongtaoMao/songtaomao.github.io/actions/runs/38444203819.
+- Only management documentation and ignore rules are included in this setup; no heavy jobs were run.
+- Search Console's current indexing/sitemap processing state was not checked. Earlier indexing observations below are historical.
+- No Overleaf remote is configured for this website.
+
+The setup commit may trigger another Pages deployment with unchanged homepage content. Check the corresponding Actions run when confirming deployment; the run #27 result above verifies the prior content release.
+
+---
+
 # Website Refresh Result
 
 Date: 2026-10-14
