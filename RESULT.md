@@ -1,3 +1,17 @@
+# Publication Order Update — 2026-11-01
+
+- Swapped the first two publication entries so “Improved Polynomial-Time Algorithms for Detecting and Recovering Planted \(\Theta(\sqrt{n})\)-Cliques” appears first and “Abelian Cayley High-Dimensional Expanders with Polylogarithmic Degree” appears second.
+- Preserved both papers' links, authors, venues, and all other homepage content.
+- Updated the documented homepage baseline to match the new order and synchronized the scoped change to `main`.
+
+Validation completed:
+
+- HTML parsed successfully and Git whitespace validation passed.
+- GitHub Pages deployment completed successfully.
+- The public homepage returned HTTP 200 and showed the two papers in the requested order.
+
+---
+
 # Website Management Setup — 2026-10-26
 
 This round establishes ongoing website maintenance. Website source and hosting settings are unchanged.

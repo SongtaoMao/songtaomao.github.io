@@ -34,7 +34,7 @@
 
 - 简介包含 UIUC 2025、Bocconi 2026 和 Fall 2026 Simons 访问经历及链接。
 - 求职表述为寻找 starting in 2027 的 postdoctoral 或 other research positions。
-- 12 篇论文；Abelian Cayley 列首，planted clique 标 SODA 2027，Batch LPN 标 TCC 2026。
+- 12 篇论文；planted clique 列首并标 SODA 2027，Abelian Cayley 第二，Batch LPN 标 TCC 2026。
 - PASCAL 标注按贡献排序；保留其他作者排序说明及 Low-degree 贡献说明与 Hopkins 原始论文链接。
 - 桌面照片高度 440px、向下偏移 36px；图标 42px；Email/图标块向上调整 24px；简介字号为原来的 90%。
 - 保留 canonical、description、Search Console 验证标签、robots 和 sitemap。涉及内容更新时同步相关日期，勿把历史收录诊断当作当前结果。
